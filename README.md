@@ -1,6 +1,7 @@
 # neo4j-imobiliaria
 # Projeto Neo4j – Imobiliária
 
+## Descrição
 Este projeto tem como objetivo demonstrar o uso de banco de dados em grafos (Neo4j)
 para modelagem de dados de uma imobiliária, permitindo análises de relacionamento,
 recomendação de imóveis e match entre clientes e propriedades.
@@ -17,12 +18,19 @@ O grafo é composto pelos nós:
 - Amenidade
 - Corretor
 
-E relacionamentos como:
+## E relacionamentos como:
 - PREFERE
 - LOCALIZADO_EM
 - TEM_AMENIDADE
 - VISITOU
 - FEZ_PROPOSTA
+
+
+
+## Consultas Exemplos
+- Match entre clientes e imóveis
+- Recomendação de imóveis similares
+- Histórico de visitas e propostas
 
 ## Observação
 Os dados utilizados são fictícios, com fins acadêmicos.
